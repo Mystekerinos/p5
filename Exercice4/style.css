@@ -1,0 +1,50 @@
+header {
+    background-color: #FFCC99;
+    box-shadow: 0px 4px 2px -2px gray;
+    /* Ombre portée en gris */
+    text-align: center;
+    /* Texte centré */
+}
+
+header h1 {
+    font-weight: bold;
+    /* Texte en gras */
+}
+
+main {
+    display: flex;
+    /* Utilisation de Flexbox */
+    background-color: #E6F2FF;
+    margin: 20px;
+    /* Marge de 20 pixels autour */
+}
+
+aside {
+    background-color: #B3D9FF;
+    flex: 1;
+    /* Flex 1 pour aside */
+    border: 1px solid #CCC;
+    /* Bordure de 1 pixel */
+}
+
+section {
+    flex: 3;
+    /* Flex 3 pour section */
+}
+
+footer {
+    background-color: #99CC99;
+    border: 1px solid #CCC;
+    /* Bordure de 1 pixel */
+    box-shadow: 0px -4px 2px -2px gray;
+    /* Ombre portée en gris */
+    text-align: center;
+    /* Texte centré */
+    padding: 10px 0;
+    /* Espacement intérieur */
+}
+
+footer p {
+    margin: 0;
+    /* Pas de marge pour les paragraphes dans footer */
+}
